@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Samir Khoulani
+Samir_khoulani@student.uml.edu
+11/3/16
+HW6
+The purpose of this website is to create user-generated multiplication tables.
+-->
+<html lang="en">
+
+    <head>
+
+        <title>Multiplication Table - HW6</title>
+
+        <meta charset="utf-8">
+
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <script src="index.js"></script>
+
+        <header>Samir's Multiplication Table</header>
+
+        <p> Please enter four positive numbers. Decimal numbers will always be rounded down to the nearest whole number. </p>
+
+        <form>
+            <input type="text" name="horbegin" placeholder="Horizontal Begin">
+
+            <br>
+
+            <input type="text" name="horend" placeholder="Horizontal End">
+
+            <br>
+
+            <input type="text" name="vertbegin" placeholder="Vertical Begin">
+
+            <br>
+
+            <input type="text" name="vertend" placeholder="Vertical End">
+
+            <br>
+
+        </form>
+
+        <br>
+
+        <button type="button" onclick="populateTable()">Submit</button>
+
+        <br>
+
+    </body>
+
+</html>
